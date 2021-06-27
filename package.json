@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dists-chi-cdf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Chi distribution cumulative distribution function (CDF).",
   "license": "Apache-2.0",
   "author": {
