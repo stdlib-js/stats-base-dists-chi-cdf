@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-gamma-cdf@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-degenerate-cdf@esm/index.mjs";var n=s,i=e;var a=function(t,s){return i(t)||i(s)||s<0?NaN:0===s?t<0?0:1:t<=0?0:n(t*t,s/2,.5)},d=r.factory,m=s.factory,o=e;var f=a,c=function(t){var s;return 0===t?d(0):(s=m(t/2,.5),function(t){if(o(t))return NaN;if(t<0)return 0;return s(t*t)})};t(f,"factory",c);var j=f;export{j as default,c as factory};
+//# sourceMappingURL=index.mjs.map
