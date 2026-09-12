@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-09-12)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`af2d985`](https://github.com/stdlib-js/stdlib/commit/af2d9859ef52c83148c11e0b8cf1ef886db0447c) - **test:** migrate `stats/base/dists/chi/cdf` to ULP-based assertions [(#15178)](https://github.com/stdlib-js/stdlib/pull/15178) _(by Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`31b9282`](https://github.com/stdlib-js/stdlib/commit/31b92826dc9908a24cedf35e7e63592ce9d6cd69) - **docs:** propagate equation-label / SVG copy-paste fixes across `stats/base/dists/*` [(#11799)](https://github.com/stdlib-js/stdlib/pull/11799) _(by Philipp Burckhardt)_
 -   [`41606e2`](https://github.com/stdlib-js/stdlib/commit/41606e2fd5262560892caf5217b65dd5ec92a8d3) - **docs:** fix README structure of `stats/base/dists/chi/cdf` [(#11740)](https://github.com/stdlib-js/stdlib/pull/11740) _(by Philipp Burckhardt)_
@@ -27,8 +28,9 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Om-A-osc
 -   Philipp Burckhardt
 
